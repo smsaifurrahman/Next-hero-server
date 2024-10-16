@@ -4,7 +4,6 @@ export const metadata = {
     title: {
         absolute: "Meals"
     },
-
     description: "Post Page",
   };
 

@@ -22,7 +22,7 @@ const PostPage = async () => {
             <div className='grid grid-cols-3 gap-6 '>
                 {
                     postsData?.slice(0,20)?.map(({title, body, id})=>(
-                        <div className='border-2 p-6'>
+                        <div key={id} className='border-2 p-6'>
                             <h6> Title: {title}</h6>
                             <h6> Description: {body}</h6>
                             <button> <Link href={`/posts/${id}`}> See Details </Link> </button>
