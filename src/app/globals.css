@@ -25,3 +25,7 @@ body {
     text-wrap: balance;
   }
 }
+
+h6 {
+  font-size: 1rem;
+}
